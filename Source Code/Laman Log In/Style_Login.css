@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(127, 140, 255);
+    background-image: url(../bgimage/Fery.jpg);
+    background-size: cover;
+}
+
+.header {
+    display: inline-block;
+}
+
+.Judul {
+    font-family: Pacifico
+}
+
+.welcoming {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.5cm;
+}
+
+.diagram {
+    display: inline-block;
+}
+
+.box {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 25cm;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0px;
+    border-radius: 20px;
+    height: 19cm;
+    justify-content: center;
+    opacity: 1;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.diagram {
+    display: inline-block;
+}
