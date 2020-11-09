@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleSignUp.css">
     <title>Travelnesia</title>
 </head>
+
 <body>
-    
+
 
     <div class="layoutKanan">
         <div class="Login" style="font-size: 13px;">
-            Sudah punya akun? <a href="url" style="font-weight: bold;">Masuk</a>
+            Sudah punya akun? <a href="../Laman Sign In/SignIn.html" style="font-weight: bold;">Masuk</a>
         </div>
         <center>
             <h1>
@@ -25,26 +27,26 @@
                 <a href="https://www.facebook.com"><img src="img/buttonFacebook.png" alt="Facebook" style="width: 45px; height: 45px;" class="loginWith"></a>
                 <a href="https://www.google.com"><img src="img/buttonGoogle.png" alt="Google" style="width: 45px; height: 45px;" class="loginWith"></a>
                 <a href="https://www.twitter.com"><img src="img/buttonTwitter.png" alt="Twitter" style="width: 45px; height: 45px;" class="loginWith"></a>
-                <br >
+                <br>
                 <div class="line"></div>
-                    <p style="display: inline-block;">
-                        atau
-                    </p>
+                <p style="display: inline-block;">
+                    atau
+                </p>
                 <div class="line"></div>
             </p>
-            <table >
+            <table>
                 <p>
-                    <form name="SingUpForm" action="#" method="POST">
+                    <form name="SingUpForm" action="../Laman_Beranda/slide3.html" method="GET">
                         <tr style="font-size: 13px; font-weight:600;">
                             <td>Nama</td>
                             <td>Username</td>
                         </tr>
                         <tr>
                             <td>
-                                <input class="tableDouble" type="text" name="nama">
+                                <input class="tableDouble" type="text" name="nama" required>
                             </td>
                             <td>
-                                <input class="tableDouble" type="text" name="username" >
+                                <input class="tableDouble" type="text" name="username" required>
                             </td>
                         </tr>
                         <tr style="font-size: 13px; font-weight:600;">
@@ -52,7 +54,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input class="tableSingle" type="email" name="email"> 
+                                <input class="tableSingle" type="email" name="email" required>
                             </td>
                         </tr>
                         <tr style="font-size: 13px; font-weight:600;">
@@ -60,39 +62,38 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input class="tableSingle" type="password" name="katasandi">
+                                <input class="tableSingle" type="password" name="katasandi" required>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="2">
                                 <br>
-                                <input type="checkbox" id="privacyPolicy" value="privacyPolicy">
+                                <input type="checkbox" id="privacyPolicy" value="privacyPolicy" required>
                                 <label for="privacyPolicy" style="font-size: 12px;">Creating an account means you’re okay with our Terms of <br>
                                     Service, Privacy Policy, and our default Notification Settings. </label>
 
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2" >
+                            <td colspan="2">
                                 <br>
                                 <button type="submit" style="font-size: 15px; font-weight: 500;">
                                     Buat Akun
                                 </button>
-                            </td>  
+                            </td>
                         </tr>
                         <tr>
                             <td colspan="2" style="font-size: 8px;">
-                                <br>
-                                This site is protected by reCAPTCHA and the Google <br>Privacy Policy and Terms of Service apply. 
+                                <br> This site is protected by reCAPTCHA and the Google <br>Privacy Policy and Terms of Service apply.
                             </td>
-                        </tr>    
+                        </tr>
                     </form>
-                    
+
                 </p>
-            </table>      
+            </table>
         </center>
     </div>
-    
+
 
     <div class="layoutKiri">
         <h1>
@@ -103,6 +104,7 @@
             </p>
         </h1>
     </div>
-   
+
 </body>
+
 </html>
