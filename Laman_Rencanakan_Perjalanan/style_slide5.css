@@ -1,0 +1,449 @@
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+    font-family: Pacifico, cursive;
+    src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
+    src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+}
+
+.font {
+    font-family: Pacifico, cursive;
+    src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
+    src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+}
+
+.upper {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(0, 81, 255);
+}
+
+.title {
+    font-size: 0.5cm;
+    font-family: Pacifico, cursive;
+    src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
+    src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+    display: inline-block;
+}
+
+.menu {
+    color: white;
+    font-size: 0.5cm;
+    display: inline-block;
+    margin-left: 3cm;
+}
+
+.profil {
+    border: 1px solid rgb(255, 255, 255);
+    height: 1cm;
+    width: 1cm;
+    border-radius: 50%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png);
+    background-size: cover;
+    float: right;
+}
+
+.bottom {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 20cm;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: darkcyan;
+    background-image: url();
+    background-size: cover;
+}
+
+.capt {
+    border: 0px solid;
+    color: white;
+    font-size: 1.5cm;
+    margin-left: 2cm;
+    margin-bottom: 2cm;
+    margin-top: 0.5cm;
+}
+
+.slogan {
+    border: 0px solid;
+    color: white;
+    font-size: 1cm;
+    margin-left: 2cm;
+}
+
+.keluarga {
+    display: inline-block;
+    font-size: 0.5cm;
+}
+
+.pasangan {
+    display: inline-block;
+    margin-left: 1cm;
+    font-size: 0.5cm;
+}
+
+.team {
+    display: inline-block;
+    margin-left: 1cm;
+    font-size: 0.5cm;
+}
+
+.a {
+    height: 13cm;
+    display: inline-block;
+    margin-right: 2cm;
+}
+
+.b {
+    height: 13cm;
+    display: inline-block;
+    margin-left: 1cm;
+}
+
+.kiri {
+    border: 1px solid black;
+    height: 1cm;
+    width: 1cm;
+    border-radius: 50%;
+    margin-top: 6.5cm;
+    position: absolute;
+    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-9.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.kanan {
+    border: 1px solid black;
+    height: 1cm;
+    width: 1cm;
+    border-radius: 50%;
+    margin-top: 6.5cm;
+    position: absolute;
+    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-24.png);
+    background-size: cover;
+}
+
+.loc {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 0.5cm;
+    width: 0.5cm;
+    display: inline-block;
+    background-image: url(../Perancangan_Web/bgimage/pixlr-bg-result.png);
+    background-size: cover;
+}
+
+.dest1 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.dest2 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.dest3 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.button {
+    border: 1px solid black;
+    height: 1cm;
+    width: 3.5cm;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text-dest {
+    background-color: rgb(91, 93, 255, 0.5);
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 3.5cm;
+    width: 8.5cm;
+    border-radius: 20px;
+    margin-top: 9.5cm;
+}
+
+.jawa {
+    display: inline-block;
+    font-size: 0.5cm;
+    height: 1cm;
+    width: 1cm;
+}
+
+.sumatra {
+    display: inline-block;
+    font-size: 0.5cm;
+    margin-left: 2cm;
+    height: 1cm;
+    width: 1cm;
+}
+
+.bali {
+    display: inline-block;
+    font-size: 0.5cm;
+    margin-left: 3cm;
+    height: 1cm;
+    width: 1cm;
+}
+
+.left {
+    border: 1px solid black;
+    display: inline-block;
+    height: 1cm;
+    width: 1cm;
+    border-radius: 50%;
+    margin-left: 22cm;
+    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-9.png);
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.right {
+    border: 1px solid black;
+    display: inline-block;
+    height: 1cm;
+    width: 1cm;
+    border-radius: 50%;
+    margin-left: 0.5cm;
+    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-24.png);
+    background-size: cover;
+}
+
+.goal {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-left: 0.5cm;
+}
+
+.dest4 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.dest5 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.dest6 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.dest7 {
+    border: 1px solid black;
+    height: 13cm;
+    width: 8.5cm;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url();
+    background-size: cover;
+}
+
+.star {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 0.3cm;
+    width: 0.3cm;
+    display: inline-block;
+    background-image: url(../Perancangan_Web/bgimage/star.png);
+    background-size: cover;
+}
+
+.bord {
+    border: 2px solid rgb(255, 255, 255);
+    width: 15cm;
+    border-radius: 80px;
+}
+
+.round {
+    border: 2px solid rgb(255, 255, 255);
+    width: 1cm;
+    height: 1cm;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1cm;
+}
+
+.top-line {
+    border: 1px solid rgb(255, 255, 255);
+    width: 5cm;
+    display: inline-block;
+}
+
+.bot-line {
+    border: 1px solid rgb(255, 255, 255);
+    width: 4.5cm;
+    display: inline-block;
+}
+
+.nama_depan {
+    width: 6cm;
+    height: 1cm;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.nama_belakang {
+    width: 6cm;
+    height: 1cm;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.jenis_kelamin {
+    height: 1.2cm;
+    width: 12.5cm;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.inp {
+    height: 1cm;
+    width: 12.33cm;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.inp2 {
+    height: 1cm;
+    width: 10.2cm;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.space {
+    width: 2cm;
+}
+
+td {
+    font-size: 0.5cm;
+    color: white;
+}
+
+.submission {
+    border-radius: 50%;
+    width: 1.5cm;
+    height: 1.5cm;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+fieldset {
+    width: 20cm;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jarak {
+    height: 7cm;
+}
+
+.form {
+    background-image: url(../Perancangan_Web/bgimage/Pemandangan.jpeg);
+    background-size: cover;
+}
+
+footer {
+    border: 1px solid black;
+    height: 11cm;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: midnightblue;
+}
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 8.5cm;
+    height: 11cm;
+    margin-left: 1cm;
+}
+
+.text_footer {
+    position: absolute;
+    color: white;
+}
+
+.logo1 {
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 1cm;
+    height: 1cm;
+    display: inline-block;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: url(../Perancangan_Web/bgimage/fb-removebg-preview.png);
+}
+
+.logo2 {
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 1cm;
+    height: 1cm;
+    display: inline-block;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: url(../Perancangan_Web/bgimage/ig5-removebg-preview.png);
+}
+
+.logo3 {
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 1cm;
+    height: 1cm;
+    display: inline-block;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: url(../Perancangan_Web/bgimage/twtt-removebg-preview.png);
+}
