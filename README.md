@@ -1,5 +1,8 @@
-Dany Zaky Dhaifullah 			192410103024
-Anggi Wahyu Utomo 				192410103049
+__Dany Zaky Dhaifullah 			192410103024__
 
-Project Name : Travelnesia
-Mock Up : s.id/travelnesia 
+__Anggi Wahyu Utomo 				192410103049__
+
+
+Project Name  : *Travelnesia*
+
+Mock Up       : *http://gg.gg/travelnesia*
