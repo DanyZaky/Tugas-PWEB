@@ -1,7 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 p {
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: 'Times New Roman', Times, serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -20,13 +26,20 @@ a {
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 }
 
-.upper {
-    border: 1px solid rgba(0, 0, 0, 0);
-    background-color: rgb(0, 81, 255);
+nav
+{
+    padding: 20px 0;
+    background-color:#162E44;
+}
+
+.navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .title {
-    font-size: 0.5cm;
+    font-size: 20px;
     font-family: Pacifico, cursive;
     src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
@@ -37,16 +50,12 @@ a {
     color: white;
     font-size: 0.5cm;
     display: inline-block;
-    margin-left: 3cm;
+    margin-left: 40px;
+    font-family: 'Segoe UI';
 }
 
-.profil {
-    border: 1px solid rgb(255, 255, 255);
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png);
-    background-size: cover;
+.profile-logo {
+
     float: right;
 }
 
@@ -55,18 +64,18 @@ a {
     height: 20cm;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-color: darkcyan;
-    background-image: url();
+    background-image: url("img/landingpage-bg.png");
     background-size: cover;
 }
 
 .capt {
     border: 0px solid;
     color: white;
-    font-size: 1.5cm;
+    font-size: 90px;
     margin-left: 2cm;
-    margin-bottom: 2cm;
-    margin-top: 0.5cm;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family:'times new roman';
 }
 
 .slogan {
@@ -76,37 +85,40 @@ a {
     margin-left: 2cm;
 }
 
+
+.berita
+{
+    margin-left: 59px;
+}
+
 .box1-berita {
-    border: 1px solid rgba(0, 0, 0, 0);
     height: 20cm;
-    width: 23cm;
+    width: 740px;
     display: inline-block;
     margin-left: 0.5cm;
 }
 
 .box2-berita {
-    border: 1px solid rgba(0, 0, 0, 0);
     height: 20cm;
-    width: 15cm;
+    width: 16cm;
     display: inline-block;
-    position: absolute;
-    left: 24.5cm;
 }
 
 .gambar1 {
-    border: 1px solid black;
-    height: 10cm;
+    height: 382px; width: 687px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
+    background-image: url("img/gambar1.jpg");
+    background-size: cover;
 }
 
 .button {
-    border: 1px solid black;
-    height: 1cm;
-    width: 3.5cm;
+    border: 2px solid#162E44;
+    height: 54px;
+    width: 196px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 21px;
 }
 
 .sub-box {
@@ -116,59 +128,59 @@ a {
 }
 
 .gambar2 {
-    border: 1px solid black;
-    width: 7cm;
-    height: 4cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
+    width: 234px;
+    height: 129px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-image: url("img/gambar2.jpg");
     background-size: cover;
 }
 
 .gambar3 {
-    border: 1px solid black;
-    width: 7cm;
-    height: 4cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
+    width: 234px;
+    height: 129px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-image: url("img/gambar3.jpg");
     background-size: cover;
 }
 
 .gambar4 {
-    border: 1px solid black;
-    width: 7cm;
-    height: 4cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
+    width: 234px;
+    height: 129px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-image: url("img/gambar4.jpg");
     background-size: cover;
 }
 
 .gambar5 {
-    border: 1px solid black;
-    width: 7cm;
-    height: 4cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
+    width: 234px;
+    height: 129px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-image: url("img/gambar5.jpg");
     background-size: cover;
 }
 
 .jawa {
     display: inline-block;
-    font-size: 0.5cm;
+    font-size: 21px; 
+    color: #162E44;
+    font-family: 'Segoe UI';
     height: 1cm;
     width: 1cm;
 }
 
 .sumatra {
     display: inline-block;
-    font-size: 0.5cm;
+    font-size: 21px; 
+    color: #162E44;
+    font-family: 'Segoe UI';
     margin-left: 2cm;
     height: 1cm;
     width: 1cm;
@@ -176,38 +188,35 @@ a {
 
 .bali {
     display: inline-block;
-    font-size: 0.5cm;
+    font-size: 21px;
+    color: #162E44;
+    font-family: 'Segoe UI';
     margin-left: 3cm;
     height: 1cm;
     width: 1cm;
 }
 
 .left {
-    border: 1px solid black;
     display: inline-block;
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
+    height: 42px;
+    width: 42px;
     margin-left: 22cm;
-    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-9.png);
+    background-image: url('img/scroll-left.png');
     background-size: cover;
-    transform: rotate(180deg);
 }
 
 .right {
-    border: 1px solid black;
     display: inline-block;
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
+    height: 42px;
+    width: 42px;
     margin-left: 0.5cm;
-    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-24.png);
+    background-image: url('img/scroll-right.png');
     background-size: cover;
 }
 
 .goal {
     border: 1px solid rgba(0, 0, 0, 0);
-    margin-left: 0.5cm;
+    margin-left: 59px;
 }
 
 .dest1 {
@@ -215,11 +224,6 @@ a {
     height: 8cm;
     width: 8.5cm;
     display: inline-block;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
 }
 
 .dest2 {
@@ -228,11 +232,6 @@ a {
     width: 8.5cm;
     display: inline-block;
     margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
 }
 
 .dest3 {
@@ -241,11 +240,6 @@ a {
     width: 8.5cm;
     display: inline-block;
     margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
 }
 
 .dest4 {
@@ -254,20 +248,15 @@ a {
     width: 8.5cm;
     display: inline-block;
     margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
 }
 
 .gambar6 {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -276,9 +265,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -287,9 +276,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -298,9 +287,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -309,9 +298,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -320,9 +309,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -331,9 +320,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -342,9 +331,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -353,9 +342,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -364,9 +353,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -375,9 +364,9 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
@@ -386,68 +375,39 @@ a {
     border: 1px solid black;
     width: 8.5cm;
     height: 5cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
     background-image: url();
     background-size: cover;
 }
 
 .button {
-    border: 1px solid black;
-    height: 1cm;
-    width: 3.5cm;
+    border: 2px solid#162E44;
+    height: 54px;
+    width: 196px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 21px;
 }
 
+
 footer {
-    border: 1px solid black;
-    height: 11cm;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-color: midnightblue;
+    height: 450px;
+    border-top-right-radius: 68px;
+    border-top-left-radius: 68px;
+    background-color: #162E44;
 }
 
 .box {
-    border: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     width: 8.5cm;
     height: 11cm;
-    margin-left: 1cm;
+    margin-left: 60px;
 }
 
 .text_footer {
     position: absolute;
     color: white;
-}
-
-.logo1 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/fb-removebg-preview.png);
-}
-
-.logo2 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/ig5-removebg-preview.png);
-}
-
-.logo3 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/twtt-removebg-preview.png);
+    font-family: 'Segoe UI';
+    font-size: 25px;
 }

@@ -4,6 +4,12 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: rgba(0, 0, 0, 0);
 }
@@ -20,13 +26,20 @@ a {
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 }
 
-.upper {
-    border: 1px solid rgba(0, 0, 0, 0);
-    background-color: rgb(0, 81, 255);
+nav
+{
+    padding: 20px 0;
+    background-color:#162E44;
+}
+
+.navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .title {
-    font-size: 0.5cm;
+    font-size: 20px;
     font-family: Pacifico, cursive;
     src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
@@ -37,16 +50,12 @@ a {
     color: white;
     font-size: 0.5cm;
     display: inline-block;
-    margin-left: 3cm;
+    margin-left: 40px;
+    font-family: 'Segoe UI';
 }
 
-.profil {
-    border: 1px solid rgb(255, 255, 255);
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png);
-    background-size: cover;
+.profile-logo {
+
     float: right;
 }
 
@@ -55,18 +64,18 @@ a {
     height: 20cm;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-color: darkcyan;
-    background-image: url();
+    background-image: url("img/landingpage-bg.png");
     background-size: cover;
 }
 
 .capt {
     border: 0px solid;
     color: white;
-    font-size: 1.5cm;
+    font-size: 90px;
     margin-left: 2cm;
-    margin-bottom: 2cm;
-    margin-top: 0.5cm;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family:'times new roman';
 }
 
 .slogan {
@@ -76,21 +85,192 @@ a {
     margin-left: 2cm;
 }
 
+.button {
+    border: 2px solid#162E44;
+    height: 54px;
+    width: 196px;
+    background-color: white;
+    border-radius: 21px;
+}
+
+.jawa {
+    display: inline-block;
+    color: #162E44;
+    font-family: 'Segoe UI';
+    font-size: 23px;
+    height: 1cm;
+    width: 1cm;
+}
+
+.sumatra {
+    display: inline-block;
+    color: #162E44;
+    font-family: 'Segoe UI';
+    font-size: 23px;
+    margin-left: 2cm;
+    height: 1cm;
+    width: 1cm;
+}
+
+.bali {
+    display: inline-block;
+    color: #162E44;
+    font-family: 'Segoe UI';
+    font-size: 23px;
+    margin-left: 3cm;
+    height: 1cm;
+    width: 1cm;
+}
+
+.left {
+    display: inline-block;
+    height: 49px;
+    width: 49px;
+    margin-left: 22cm;
+    background-image: url("img/scroll-left.png");
+    background-size: cover;
+}
+
+.right {
+    display: inline-block;
+    height: 49px;
+    width: 49px;
+    margin-left: 0.5cm;
+    background-image: url("img/scroll-right.png");
+    background-size: cover;
+}
+
+.goal {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-left: 80px;
+}
+
+.dest1 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url("img/dest1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.dest2 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url("img/dest2.jpeg");
+    background-size: cover;
+}
+
+.dest3 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url("img/dest3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.dest4 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url("img/dest4.jpg");
+    background-size: cover;
+}
+
+.text-dest {
+    background-color: rgb(22, 46, 68, 0.5);
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-family: 'Segoe UI';
+    height: 65px;
+    width: 300px;
+    border-radius: 43px;
+    margin-top: 270px;
+    padding: 25px 0;
+}
+
+.star {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 0.3cm;
+    width: 0.3cm;
+    display: inline-block;
+    background-image: url("img/icon-star.png");
+    background-size: cover;
+}
+
 .keluarga {
     display: inline-block;
-    font-size: 0.5cm;
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    color: #162E44;
 }
 
 .pasangan {
     display: inline-block;
     margin-left: 1cm;
-    font-size: 0.5cm;
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    color: #162E44;
 }
 
 .team {
     display: inline-block;
     margin-left: 1cm;
-    font-size: 0.5cm;
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.dest5 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url('img/dest5.jpg');
+    background-size: cover;
+}
+
+.dest6 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url('img/dest6.jpg');
+    background-size: cover;
+}
+
+.dest7 {
+    height: 387px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 1cm;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    background-image: url('img/dest7.jpg');
+    background-size: cover;
 }
 
 .a {
@@ -106,25 +286,20 @@ a {
 }
 
 .kiri {
-    border: 1px solid black;
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    margin-top: 6.5cm;
+    height: 49px;
+    width: 49px;
+    margin-top: 7cm;
     position: absolute;
-    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-9.png);
+    background-image: url("img/scroll-left.png");
     background-size: cover;
-    transform: rotate(180deg);
 }
 
 .kanan {
-    border: 1px solid black;
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    margin-top: 6.5cm;
+    height: 49px;
+    width: 49px;
+    margin-top: 7cm;
     position: absolute;
-    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-24.png);
+    background-image: url("img/scroll-right.png");
     background-size: cover;
 }
 
@@ -137,184 +312,17 @@ a {
     background-size: cover;
 }
 
-.dest1 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.dest2 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.dest3 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.button {
-    border: 1px solid black;
-    height: 1cm;
-    width: 3.5cm;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.text-dest {
-    background-color: rgb(91, 93, 255, 0.5);
-    position: absolute;
-    border: 1px solid rgba(0, 0, 0, 0);
-    height: 3.5cm;
-    width: 8.5cm;
-    border-radius: 20px;
-    margin-top: 9.5cm;
-}
-
-.jawa {
-    display: inline-block;
-    font-size: 0.5cm;
-    height: 1cm;
-    width: 1cm;
-}
-
-.sumatra {
-    display: inline-block;
-    font-size: 0.5cm;
-    margin-left: 2cm;
-    height: 1cm;
-    width: 1cm;
-}
-
-.bali {
-    display: inline-block;
-    font-size: 0.5cm;
-    margin-left: 3cm;
-    height: 1cm;
-    width: 1cm;
-}
-
-.left {
-    border: 1px solid black;
-    display: inline-block;
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    margin-left: 22cm;
-    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-9.png);
-    background-size: cover;
-    transform: rotate(180deg);
-}
-
-.right {
-    border: 1px solid black;
-    display: inline-block;
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    margin-left: 0.5cm;
-    background-image: url(https://www.freeiconspng.com/uploads/greater-than-sign-icon-24.png);
-    background-size: cover;
-}
-
-.goal {
-    border: 1px solid rgba(0, 0, 0, 0);
-    margin-left: 0.5cm;
-}
-
-.dest4 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.dest5 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.dest6 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.dest7 {
-    border: 1px solid black;
-    height: 13cm;
-    width: 8.5cm;
-    display: inline-block;
-    margin-left: 1cm;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-image: url();
-    background-size: cover;
-}
-
-.star {
-    border: 1px solid rgba(0, 0, 0, 0);
-    height: 0.3cm;
-    width: 0.3cm;
-    display: inline-block;
-    background-image: url(../Perancangan_Web/bgimage/star.png);
-    background-size: cover;
-}
-
 .bord {
     border: 2px solid rgb(255, 255, 255);
-    width: 15cm;
+    width: 627px; height: 115px;
     border-radius: 80px;
 }
 
 .round {
-    border: 2px solid rgb(255, 255, 255);
     width: 1cm;
     height: 1cm;
-    border-radius: 50%;
+    background-image: url('img/scroll-down.png');
+    background-size: cover;
     display: inline-block;
     margin-left: 1cm;
 }
@@ -384,66 +392,45 @@ td {
 }
 
 fieldset {
+    border: none;
     width: 20cm;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(32, 49, 59, 0.5);
 }
 
 .jarak {
-    height: 7cm;
+    height: 50px;
 }
 
 .form {
-    background-image: url(../Perancangan_Web/bgimage/Pemandangan.jpeg);
+    
+    background-image: url('img/form-bg.jpeg');
     background-size: cover;
 }
 
+
 footer {
-    border: 1px solid black;
-    height: 11cm;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-color: midnightblue;
+    height: 450px;
+    border-top-right-radius: 68px;
+    border-top-left-radius: 68px;
+    background-color: #162E44;
 }
 
 .box {
-    border: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     width: 8.5cm;
     height: 11cm;
-    margin-left: 1cm;
+    margin-left: 60px;
 }
 
 .text_footer {
     position: absolute;
     color: white;
+    font-family: 'Segoe UI';
+    font-size: 25px;
 }
 
-.logo1 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/fb-removebg-preview.png);
-}
-
-.logo2 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/ig5-removebg-preview.png);
-}
-
-.logo3 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/twtt-removebg-preview.png);
+table
+{
+    font-size: 19px;
+    font-family: 'Segoe UI';
 }
