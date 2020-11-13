@@ -4,6 +4,12 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: rgba(0, 0, 0, 0);
 }
@@ -20,13 +26,20 @@ a {
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 }
 
-.upper {
-    border: 1px solid rgba(0, 0, 0, 0);
-    background-color: rgb(0, 81, 255);
+nav
+{
+    padding: 20px 0;
+    background-color:#162E44;
+}
+
+.navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 .title {
-    font-size: 0.5cm;
+    font-size: 20px;
     font-family: Pacifico, cursive;
     src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
@@ -37,16 +50,12 @@ a {
     color: white;
     font-size: 0.5cm;
     display: inline-block;
-    margin-left: 3cm;
+    margin-left: 40px;
+    font-family: 'Segoe UI';
 }
 
-.profil {
-    border: 1px solid rgb(255, 255, 255);
-    height: 1cm;
-    width: 1cm;
-    border-radius: 50%;
-    background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png);
-    background-size: cover;
+.profile-logo {
+
     float: right;
 }
 
@@ -55,50 +64,18 @@ a {
     height: 20cm;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-color: darkcyan;
-    background-image: url();
-    background-size: cover;
-}
-
-.box-bottom {
-    border: 1px solid rgba(0, 0, 0, 0);
-    height: 8cm;
-    width: 8cm;
-    border-radius: 20px;
-    position: absolute;
-    display: inline-block;
-    margin-left: 10cm;
-    margin-top: 3cm;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.exp {
-    border: 1px solid rgba(0, 0, 0, 0);
-    width: 8cm;
-    border-radius: 20px;
-    background-color: midnightblue;
-}
-
-.ling {
-    border: 1px solid rgba(0, 0, 0, 0);
-    width: 2cm;
-    height: 2cm;
-    border-radius: 50%;
-    background-color: midnightblue;
-    position: absolute;
-    top: 4.5cm;
-    left: 3cm;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXEWY8P0I5KPnh4Vktv2Qpi1jzpEuwjc976w&usqp=CAU);
+    background-image: url("img/landingpage-bg.png");
     background-size: cover;
 }
 
 .capt {
     border: 0px solid;
     color: white;
-    font-size: 1.5cm;
+    font-size: 90px;
     margin-left: 2cm;
-    margin-bottom: 2cm;
-    margin-top: 0.5cm;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family:'times new roman';
 }
 
 .slogan {
@@ -108,138 +85,248 @@ a {
     margin-left: 2cm;
 }
 
-.goal {
-    border: 1px solid rgba(0, 0, 0, 0);
+
+.button {
+    border: 2px solid#162E44;
+    height: 54px;
+    width: 196px;
+    background-color: white;
+    border-radius: 21px;
+}
+
+.left {
+    display: inline-block;
+    height: 49px;
+    width: 49px;
+    margin-left: 22cm;
+    background-image: url("img/scroll-left.png");
+    background-size: cover;
+}
+
+.right {
+    display: inline-block;
+    height: 49px;
+    width: 49px;
     margin-left: 0.5cm;
-}
-
-.dest1 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    display: inline-block;
-    height: 11cm;
-    width: 18cm;
-    background-image: url();
+    background-image: url("img/scroll-right.png");
     background-size: cover;
 }
 
-.dest2 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.center {
+    margin-left: 210px;
+}
+
+.a {
+    height: 13cm;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
+    margin-right: 2cm;
+}
+
+.b {
+    height: 13cm;
+    display: inline-block;
+    margin-left: 1cm;
+}
+
+
+.loc {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 0.5cm;
+    width: 0.5cm;
+    display: inline-block;
+    background-size: cover;
+}
+
+.gambar1 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    display: inline-block;
+    height: 454px;
+    width: 559px;
+    background-image: url('img/gambar1.png');
+    background-size: cover;
+}
+
+.gambar2 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    display: inline-block;
+    height: 454px;
+    width: 559px;
     margin-left: 2cm;
-    background-image: url();
+    background-image: url('img/gambar2.jpg');
     background-size: cover;
 }
 
-.dest3 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.gambar3 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
-    background-image: url();
+    height: 454px;
+    width: 559px;
+    background-image: url('img/gambar3.jpg');
     background-size: cover;
 }
 
-.dest4 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.gambar4 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
+    height: 454px;
+    width: 559px;
     margin-left: 2cm;
-    background-image: url();
+    background-image: url('img/gambar4.jpg');
     background-size: cover;
 }
 
-.dest5 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.gambar5 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
-    background-image: url();
+    height: 454px;
+    width: 559px;
+    background-image: url('img/gambar5.jpg');
     background-size: cover;
 }
 
-.dest6 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.gambar6 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
+    height: 454px;
+    width: 559px;
     margin-left: 2cm;
-    background-image: url();
+    background-image: url('img/gambar6.jpg');
     background-size: cover;
 }
 
-.dest7 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.gambar7 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
-    background-image: url();
+    height: 454px;
+    width: 559px;
+    background-image: url('img/gambar7.png');
     background-size: cover;
 }
 
-.dest8 {
-    border: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.gambar8 {
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
     display: inline-block;
-    height: 11cm;
-    width: 18cm;
+    height: 454px;
+    width: 559px;
     margin-left: 2cm;
-    background-image: url();
+    background-image: url('img/gambar8.png');
     background-size: cover;
 }
 
 .galeri {
     border: 1px solid rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 139, 0.5);
-    height: 4.5cm;
-    width: 18cm;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-top: 6.5cm;
+    background-color: rgba(22, 46, 68, 0.5);
+    height: 166px;
+    width: 559px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    margin-top: 287px;
 }
 
-.pp {
-    border: 1px solid black;
-    height: 1cm;
-    width: 1cm;
+.pp1 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
     border-radius: 50%;
+    background-image: url('img/pp1.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp2 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp2.jpg');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp3 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp3.jpg');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp4 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp4.jpg');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp5 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp5.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp6 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp6.jpg');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp7 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp7.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+.pp8 {
+    border: 2px solid rgb(255, 255, 255);
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-image: url('img/pp8.jpg');
+    background-size: cover;
     display: inline-block;
 }
 
 .like {
-    border: 1px solid black;
-    width: 1.5cm;
+    width: 80px; height: 37px;
     display: inline-block;
     border-radius: 50px;
     position: absolute;
-    margin-left: 14cm;
-    margin-top: 6cm;
-    background-color: blue;
+    margin-left: 445px;
+    margin-top: 270px;
+    background-color: #162E44;
 }
 
 .love {
@@ -252,65 +339,48 @@ a {
     border-radius: 50%;
 }
 
-.button {
-    border: 1px solid black;
-    height: 1cm;
-    width: 3.5cm;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.space {
-    height: 5cm;
-}
-
 footer {
-    border: 1px solid black;
-    height: 11cm;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    background-color: midnightblue;
+    height: 450px;
+    border-top-right-radius: 68px;
+    border-top-left-radius: 68px;
+    background-color: #162E44;
 }
 
 .box {
-    border: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
     width: 8.5cm;
     height: 11cm;
-    margin-left: 1cm;
+    margin-left: 60px;
 }
 
 .text_footer {
     position: absolute;
     color: white;
+    font-family: 'Segoe UI';
+    font-size: 25px;
 }
 
-.logo1 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
+.box-bottom {
+    height: 330px;
+    width: 330px;
+    border-radius: 35px;
     display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/fb-removebg-preview.png);
+    margin-left: 1000px;
+    background-color: rgba(255, 255, 255, 0.315);
+}
+.exp {
+    width: 280px;
+    border-radius: 35px;
+    padding: 25px;
+    background-color: #162E44;
 }
 
-.logo2 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
+.ling {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-top: 50px;
+    background-image: url('img/icon-add.png');
     background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/ig5-removebg-preview.png);
-}
-
-.logo3 {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 1cm;
-    height: 1cm;
-    display: inline-block;
-    justify-content: space-between;
-    background-size: cover;
-    background-image: url(../Perancangan_Web/bgimage/twtt-removebg-preview.png);
 }
