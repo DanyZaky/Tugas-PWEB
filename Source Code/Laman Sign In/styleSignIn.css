@@ -2,11 +2,12 @@ body {
     background-image: url(img/BG_SignIn.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-.SingUp {
-    margin-left: 84%;
-    margin-top: 1%;
+.SignUp {
+    float: right;
+    margin-right: 1%;
     font-family: 'Segoe UI';
     color: rgb(255, 255, 255);
 }
@@ -76,4 +77,62 @@ button {
 
 table {
     width: 325px;
+}
+
+@media (max-width: 720px) {
+    div.layoutKiri {
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    div.layoutKanan {
+        background-color: rgba(37, 37, 37, 0.699);
+        height: 100%;
+        width: 100%;
+        font-family: 'Segoe UI';
+        color: white;
+        left: -30%;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .space {
+        margin-top: 20%;
+    }
+    table {
+        width: 255px;
+    }
+    .line {
+        border: 1px solid white;
+        width: 110px;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 992px) {
+    div.layoutKiri {
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    div.layoutKanan {
+        background-color: rgba(37, 37, 37, 0.699);
+        height: 100%;
+        width: 100%;
+        font-family: 'Segoe UI';
+        color: white;
+        left: -30%;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .space {
+        margin-top: 10%;
+    }
 }

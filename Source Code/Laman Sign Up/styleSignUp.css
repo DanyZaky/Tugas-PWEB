@@ -1,34 +1,29 @@
-
-
-body
-{
+body {
     background-image: url(img/BG_SignUp.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-.Login
-{
-    margin-left: 84%;
-    margin-top: 1%;
+.Login {
+    float: right;
+    margin-right: 1%;
     font-family: 'Segoe UI';
     color: white;
+    font-size: 13px;
 }
 
-div.layoutKiri
-{
+div.layoutKiri {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 30%;
     position: fixed;
     top: 0;
     left: 0;
-
     color: white;
 }
 
-div.layoutKanan
-{
+div.layoutKanan {
     background-color: rgba(37, 37, 37, 0.699);
     margin-left: 30%;
     height: 100%;
@@ -36,34 +31,31 @@ div.layoutKanan
     position: fixed;
     top: 0;
     left: 0;
-    
     font-family: 'Segoe UI';
     color: white;
 }
 
-h1
-{
+h1 {
     margin-left: 20px;
 }
 
-.tableDouble
-{
+.tableDouble1 {
     width: 86%;
 }
 
-.tableSingle
-{
+.tableDouble1 {
+    width: 86%;
+}
+
+.tableSingle {
     width: 93%;
 }
 
-.layoutKanan .KopAtas
-{
+.layoutKanan .KopAtas {
     line-height: 50px;
-
 }
 
-table [type=text]
-{
+table [type=text] {
     border-radius: 5px;
     padding: 0 10px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -71,8 +63,7 @@ table [type=text]
     height: 30px;
 }
 
-table [type=email]
-{
+table [type=email] {
     border-radius: 5px;
     padding: 0 10px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -80,8 +71,7 @@ table [type=email]
     height: 30px;
 }
 
-table [type=password]
-{
+table [type=password] {
     border-radius: 5px;
     padding: 0 10px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -89,19 +79,89 @@ table [type=password]
     height: 30px;
 }
 
-button
-{
+button {
     color: white;
     border-style: hidden;
-    background-color:#162E44;
-    width: 110px; height: 35px;
+    background-color: #162E44;
+    width: 110px;
+    height: 35px;
     border-radius: 5px;
 }
 
-.line
-{
+.line {
     border: 1px solid white;
     width: 140px;
     display: inline-block;
 }
 
+.font-checkbox {
+    font-size: 12px;
+}
+
+@media (max-width: 720px) {
+    div.layoutKiri {
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    div.layoutKanan {
+        background-color: rgba(37, 37, 37, 0.699);
+        height: 100%;
+        width: 100%;
+        font-family: 'Segoe UI';
+        color: white;
+        left: -30%;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .space {
+        margin-top: 20%;
+    }
+    table {
+        width: 285px;
+    }
+    .line {
+        border: 1px solid white;
+        width: 120px;
+        display: inline-block;
+    }
+    .font-checkbox {
+        font-size: 9px;
+    }
+    .tableDouble1 {
+        width: 83%;
+    }
+    .tableDouble2 {
+        width: 83%;
+        float: right;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 992px) {
+    div.layoutKiri {
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    div.layoutKanan {
+        background-color: rgba(37, 37, 37, 0.699);
+        height: 100%;
+        width: 100%;
+        font-family: 'Segoe UI';
+        color: white;
+        left: -30%;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .space {
+        margin-top: 20%;
+    }
+}
