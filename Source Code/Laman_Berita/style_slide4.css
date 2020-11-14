@@ -246,134 +246,122 @@ nav {
 }
 
 .gambar6 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar6.png);
     background-size: cover;
 }
 
 .gambar7 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar7.png);
     background-size: cover;
 }
 
 .gambar8 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar8.png);
     background-size: cover;
 }
 
 .gambar9 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar9.png);
     background-size: cover;
 }
 
 .gambar10 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar10.png);
     background-size: cover;
 }
 
 .gambar11 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar11.png);
     background-size: cover;
 }
 
 .gambar12 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar12.png);
     background-size: cover;
 }
 
 .gambar13 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar13.png);
     background-size: cover;
 }
 
 .gambar14 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar14.png);
     background-size: cover;
 }
 
 .gambar15 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar15.png);
     background-size: cover;
 }
 
 .gambar16 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar16.png);
     background-size: cover;
 }
 
 .gambar17 {
-    border: 1px solid black;
     width: 321px;
     height: 189px;
     border-top-right-radius: 26px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
-    background-image: url();
+    background-image: url(img/gambar17.png);
     background-size: cover;
 }
 
@@ -404,4 +392,22 @@ footer {
     color: white;
     font-family: 'Segoe UI';
     font-size: 25px;
+}
+
+.inputBar
+{
+    padding: 5px;
+    width: 260px;
+    border: none;
+    background: none;
+}
+
+.searchBar
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 12px;
+    width: 300px;
+    border-radius: 50px;
+    margin-left: 1150px;
+
 }
