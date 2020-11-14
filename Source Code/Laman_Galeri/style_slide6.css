@@ -4,8 +4,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
@@ -26,16 +25,14 @@ a {
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 }
 
-nav
-{
+nav {
     padding: 20px 0;
-    background-color:#162E44;
+    background-color: #162E44;
 }
 
 .navbar {
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 .title {
@@ -48,20 +45,19 @@ nav
 
 .menu {
     color: white;
-    font-size: 0.5cm;
+    font-size: 19px;
     display: inline-block;
     margin-left: 40px;
     font-family: 'Segoe UI';
 }
 
 .profile-logo {
-
     float: right;
 }
 
 .bottom {
     border: 1px solid rgba(0, 0, 0, 0);
-    height: 20cm;
+    height: 756px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     background-image: url("img/landingpage-bg.png");
@@ -72,19 +68,18 @@ nav
     border: 0px solid;
     color: white;
     font-size: 90px;
-    margin-left: 2cm;
+    margin-left: 75px;
     margin-bottom: 20px;
     margin-top: 50px;
-    font-family:'times new roman';
+    font-family: 'times new roman';
 }
 
 .slogan {
     border: 0px solid;
     color: white;
-    font-size: 1cm;
-    margin-left: 2cm;
+    font-size: 38px;
+    margin-left: 75px;
 }
-
 
 .button {
     border: 2px solid#162E44;
@@ -98,7 +93,7 @@ nav
     display: inline-block;
     height: 49px;
     width: 49px;
-    margin-left: 22cm;
+    margin-left: 831px;
     background-image: url("img/scroll-left.png");
     background-size: cover;
 }
@@ -107,7 +102,7 @@ nav
     display: inline-block;
     height: 49px;
     width: 49px;
-    margin-left: 0.5cm;
+    margin-left: 19px;
     background-image: url("img/scroll-right.png");
     background-size: cover;
 }
@@ -117,22 +112,21 @@ nav
 }
 
 .a {
-    height: 13cm;
+    height: 491px;
     display: inline-block;
-    margin-right: 2cm;
+    margin-right: 75px;
 }
 
 .b {
-    height: 13cm;
+    height: 491px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
 }
-
 
 .loc {
     border: 1px solid rgba(0, 0, 0, 0);
-    height: 0.5cm;
-    width: 0.5cm;
+    height: 19px;
+    width: 19px;
     display: inline-block;
     background-size: cover;
 }
@@ -155,7 +149,7 @@ nav
     display: inline-block;
     height: 454px;
     width: 559px;
-    margin-left: 2cm;
+    margin-left: 75px;
     background-image: url('img/gambar2.jpg');
     background-size: cover;
 }
@@ -178,7 +172,7 @@ nav
     display: inline-block;
     height: 454px;
     width: 559px;
-    margin-left: 2cm;
+    margin-left: 75px;
     background-image: url('img/gambar4.jpg');
     background-size: cover;
 }
@@ -201,7 +195,7 @@ nav
     display: inline-block;
     height: 454px;
     width: 559px;
-    margin-left: 2cm;
+    margin-left: 75px;
     background-image: url('img/gambar6.jpg');
     background-size: cover;
 }
@@ -224,7 +218,7 @@ nav
     display: inline-block;
     height: 454px;
     width: 559px;
-    margin-left: 2cm;
+    margin-left: 75px;
     background-image: url('img/gambar8.png');
     background-size: cover;
 }
@@ -320,7 +314,8 @@ nav
 }
 
 .like {
-    width: 80px; height: 37px;
+    width: 80px;
+    height: 37px;
     display: inline-block;
     border-radius: 50px;
     position: absolute;
@@ -332,8 +327,8 @@ nav
 .love {
     border: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
-    height: 0.3cm;
-    width: 0.3cm;
+    height: 11px;
+    width: 11px;
     background-image: url(../Perancangan_Web/bgimage/heart-304085_960_720.png);
     background-size: cover;
     border-radius: 50%;
@@ -348,9 +343,9 @@ footer {
 
 .box {
     display: inline-block;
-    width: 8.5cm;
-    height: 11cm;
-    margin-left: 60px;
+    width: 321px;
+    height: 416px;
+    margin-left: 50px;
 }
 
 .text_footer {
@@ -368,6 +363,7 @@ footer {
     margin-left: 1000px;
     background-color: rgba(255, 255, 255, 0.315);
 }
+
 .exp {
     width: 280px;
     border-radius: 35px;

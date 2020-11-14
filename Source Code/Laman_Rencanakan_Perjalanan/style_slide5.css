@@ -4,8 +4,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
@@ -26,16 +25,14 @@ a {
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 }
 
-nav
-{
+nav {
     padding: 20px 0;
-    background-color:#162E44;
+    background-color: #162E44;
 }
 
 .navbar {
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 .title {
@@ -48,20 +45,19 @@ nav
 
 .menu {
     color: white;
-    font-size: 0.5cm;
+    font-size: 19px;
     display: inline-block;
     margin-left: 40px;
     font-family: 'Segoe UI';
 }
 
 .profile-logo {
-
     float: right;
 }
 
 .bottom {
     border: 1px solid rgba(0, 0, 0, 0);
-    height: 20cm;
+    height: 756px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     background-image: url("img/landingpage-bg.png");
@@ -72,17 +68,17 @@ nav
     border: 0px solid;
     color: white;
     font-size: 90px;
-    margin-left: 2cm;
+    margin-left: 75px;
     margin-bottom: 20px;
     margin-top: 50px;
-    font-family:'times new roman';
+    font-family: 'times new roman';
 }
 
 .slogan {
     border: 0px solid;
     color: white;
-    font-size: 1cm;
-    margin-left: 2cm;
+    font-size: 38px;
+    margin-left: 75px;
 }
 
 .button {
@@ -98,8 +94,8 @@ nav
     color: #162E44;
     font-family: 'Segoe UI';
     font-size: 23px;
-    height: 1cm;
-    width: 1cm;
+    height: 38px;
+    width: 38px;
 }
 
 .sumatra {
@@ -107,9 +103,9 @@ nav
     color: #162E44;
     font-family: 'Segoe UI';
     font-size: 23px;
-    margin-left: 2cm;
-    height: 1cm;
-    width: 1cm;
+    margin-left: 75px;
+    height: 38px;
+    width: 38px;
 }
 
 .bali {
@@ -117,16 +113,16 @@ nav
     color: #162E44;
     font-family: 'Segoe UI';
     font-size: 23px;
-    margin-left: 3cm;
-    height: 1cm;
-    width: 1cm;
+    margin-left: 113px;
+    height: 38px;
+    width: 38px;
 }
 
 .left {
     display: inline-block;
     height: 49px;
     width: 49px;
-    margin-left: 22cm;
+    margin-left: 831px;
     background-image: url("img/scroll-left.png");
     background-size: cover;
 }
@@ -135,7 +131,7 @@ nav
     display: inline-block;
     height: 49px;
     width: 49px;
-    margin-left: 0.5cm;
+    margin-left: 19px;
     background-image: url("img/scroll-right.png");
     background-size: cover;
 }
@@ -161,7 +157,7 @@ nav
     height: 387px;
     width: 300px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     border-top-right-radius: 42px;
     border-bottom-left-radius: 42px;
     border-bottom-right-radius: 42px;
@@ -173,7 +169,7 @@ nav
     height: 387px;
     width: 300px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     border-top-right-radius: 42px;
     border-bottom-left-radius: 42px;
     border-bottom-right-radius: 42px;
@@ -186,7 +182,7 @@ nav
     height: 387px;
     width: 300px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     border-top-right-radius: 42px;
     border-bottom-left-radius: 42px;
     border-bottom-right-radius: 42px;
@@ -208,8 +204,8 @@ nav
 
 .star {
     border: 1px solid rgba(0, 0, 0, 0);
-    height: 0.3cm;
-    width: 0.3cm;
+    height: 11px;
+    width: 11px;
     display: inline-block;
     background-image: url("img/icon-star.png");
     background-size: cover;
@@ -224,7 +220,7 @@ nav
 
 .pasangan {
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     font-size: 23px;
     font-family: 'Segoe UI';
     color: #162E44;
@@ -232,7 +228,7 @@ nav
 
 .team {
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     font-size: 23px;
     font-family: 'Segoe UI';
     color: #162E44;
@@ -253,7 +249,7 @@ nav
     height: 387px;
     width: 300px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     border-top-right-radius: 42px;
     border-bottom-left-radius: 42px;
     border-bottom-right-radius: 42px;
@@ -265,7 +261,7 @@ nav
     height: 387px;
     width: 300px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
     border-top-right-radius: 42px;
     border-bottom-left-radius: 42px;
     border-bottom-right-radius: 42px;
@@ -274,21 +270,21 @@ nav
 }
 
 .a {
-    height: 13cm;
+    height: 491px;
     display: inline-block;
-    margin-right: 2cm;
+    margin-right: 75px;
 }
 
 .b {
-    height: 13cm;
+    height: 491px;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
 }
 
 .kiri {
     height: 49px;
     width: 49px;
-    margin-top: 7cm;
+    margin-top: 264px;
     position: absolute;
     background-image: url("img/scroll-left.png");
     background-size: cover;
@@ -297,7 +293,7 @@ nav
 .kanan {
     height: 49px;
     width: 49px;
-    margin-top: 7cm;
+    margin-top: 264px;
     position: absolute;
     background-image: url("img/scroll-right.png");
     background-size: cover;
@@ -305,8 +301,8 @@ nav
 
 .loc {
     border: 1px solid rgba(0, 0, 0, 0);
-    height: 0.5cm;
-    width: 0.5cm;
+    height: 19px;
+    width: 19px;
     display: inline-block;
     background-image: url(../Perancangan_Web/bgimage/pixlr-bg-result.png);
     background-size: cover;
@@ -314,86 +310,87 @@ nav
 
 .bord {
     border: 2px solid rgb(255, 255, 255);
-    width: 627px; height: 115px;
+    width: 627px;
+    height: 115px;
     border-radius: 80px;
 }
 
 .round {
-    width: 1cm;
-    height: 1cm;
+    width: 38px;
+    height: 38px;
     background-image: url('img/scroll-down.png');
     background-size: cover;
     display: inline-block;
-    margin-left: 1cm;
+    margin-left: 38px;
 }
 
 .top-line {
     border: 1px solid rgb(255, 255, 255);
-    width: 5cm;
+    width: 189px;
     display: inline-block;
 }
 
 .bot-line {
     border: 1px solid rgb(255, 255, 255);
-    width: 4.5cm;
+    width: 170px;
     display: inline-block;
 }
 
 .nama_depan {
-    width: 6cm;
-    height: 1cm;
+    width: 227px;
+    height: 38px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
 }
 
 .nama_belakang {
-    width: 6cm;
-    height: 1cm;
+    width: 227px;
+    height: 38px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
 }
 
 .jenis_kelamin {
-    height: 1.2cm;
-    width: 12.5cm;
+    height: 45px;
+    width: 472px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
 }
 
 .inp {
-    height: 1cm;
-    width: 12.33cm;
+    height: 38px;
+    width: 466px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
 }
 
 .inp2 {
-    height: 1cm;
-    width: 10.2cm;
+    height: 38px;
+    width: 385px;
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
 }
 
 .space {
-    width: 2cm;
+    width: 75px;
 }
 
 td {
-    font-size: 0.5cm;
+    font-size: 19px;
     color: white;
 }
 
 .submission {
     border-radius: 50%;
-    width: 1.5cm;
-    height: 1.5cm;
+    width: 56px;
+    height: 56px;
     background-color: rgb(226, 226, 226);
     text-align: center;
 }
 
 fieldset {
     border: none;
-    width: 20cm;
+    width: 756px;
     background-color: rgba(32, 49, 59, 0.5);
 }
 
@@ -402,11 +399,9 @@ fieldset {
 }
 
 .form {
-    
     background-image: url('img/form-bg.jpeg');
     background-size: cover;
 }
-
 
 footer {
     height: 450px;
@@ -417,9 +412,9 @@ footer {
 
 .box {
     display: inline-block;
-    width: 8.5cm;
-    height: 11cm;
-    margin-left: 60px;
+    width: 321px;
+    height: 416px;
+    margin-left: 50px;
 }
 
 .text_footer {
@@ -429,8 +424,7 @@ footer {
     font-size: 25px;
 }
 
-table
-{
+table {
     font-size: 19px;
     font-family: 'Segoe UI';
 }
