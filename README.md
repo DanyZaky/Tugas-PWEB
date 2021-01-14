@@ -5,4 +5,4 @@ __Anggi Wahyu Utomo 				192410103049__
 
 Project Name  : *Travelnesia*
 
-Mock Up       : *http://gg.gg/travelnesia*
+Preview       : *https://anggiwahyuu.github.io/Tugas-PWEB/*
