@@ -60,7 +60,7 @@ table [type=password] {
     width: 94%;
 }
 
-button {
+#button {
     color: white;
     border-style: hidden;
     background-color: #162E44;

@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+
+/*body {
+    overflow-x: hidden;
+}*/
+
 p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -378,6 +383,13 @@ nav {
 td {
     font-size: 19px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td p {
+    font-size: 19px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .submission {
@@ -401,6 +413,7 @@ fieldset {
 .form {
     background-image: url('img/form-bg.jpeg');
     background-size: cover;
+    width: 100%;
 }
 
 footer {
@@ -427,4 +440,437 @@ footer {
 table {
     font-size: 19px;
     font-family: 'Segoe UI';
+}
+
+.navs {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.menu-toggle input {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked~span:nth-child(2) {
+    transform: rotate(45deg) translate(2px, -1px);
+}
+
+.menu-toggle input:checked~span:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.menu-toggle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg) translate(3px, 0);
+}
+
+.main h1 {
+    font-size: 60px;
+    color: #162E44;
+}
+
+.rekom {
+    margin-left: 80px;
+    color: #162E44;
+}
+
+.rekom h1 {
+    font-size: 60px;
+}
+
+.rekom div {
+    display: inline-block;
+}
+
+form button {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.bord h1 {
+    font-size: 63px;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+}
+
+.ppp p {
+    display: inline-block;
+    font-size: 21px;
+    font-family: 'Segoe UI';
+    color: white;
+}
+
+.ooo p {
+    display: inline-block;
+    font-size: 21px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+#submit:hover {
+    background-color: azure;
+}
+
+@media (max-width: 720px) {
+    .program {
+        margin-top: 25px;
+    }
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .capt {
+        font-size: 50px;
+        position: absolute;
+        left: -60px;
+        top: 50px;
+    }
+    .slogan {
+        font-size: 22px;
+        position: absolute;
+        right: 10px;
+        top: 340px;
+        text-align: right;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .a {
+        display: none;
+    }
+    .b {
+        display: none;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .main h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .jawa {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .sumatra {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .bali {
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    .keluarga {
+        font-size: 15px;
+    }
+    .pasangan {
+        font-size: 15px;
+    }
+    .team {
+        font-size: 15px;
+    }
+    .rekom h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -25%;
+    }
+    .rekom div {
+        margin-top: 50px;
+        margin-left: -5%;
+    }
+    .goal {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .dest6 {
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    .dest7 {
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    .button {
+        height: 34px;
+        width: 106px;
+        border-radius: 10px;
+    }
+    form button {
+        font-size: 12px;
+    }
+    .dest1 {
+        margin-top: -40px;
+        margin-left: 9%;
+    }
+    .dest2 {
+        margin-left: 9%;
+        margin-top: 30px;
+    }
+    .dest3 {
+        margin-left: 9%;
+        margin-top: 30px;
+    }
+    .dest4 {
+        margin-left: 9%;
+        margin-top: 30px;
+    }
+    footer {
+        width: 100%;
+        height: 1675px;
+        align-items: center;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        margin-bottom: 0;
+    }
+    .box {
+        margin-left: 20%;
+    }
+    .text_footer p {
+        text-align: center;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .bord {
+        width: 227px;
+        height: 55px;
+        margin-left: -25%;
+    }
+    .bord h1 {
+        font-size: 21px;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    .round {
+        width: 22px;
+        height: 22px;
+        margin-left: 10%;
+    }
+    .ppp p {
+        font-size: 14px;
+    }
+    .ppp {
+        text-align: center;
+        margin-left: -25%;
+        align-items: center;
+    }
+    .ooo {
+        text-align: center;
+        margin-left: -25%;
+        align-items: center;
+    }
+    .ooo p {
+        font-size: 14px;
+    }
+    .top-line {
+        width: 80px;
+    }
+    .bot-line {
+        width: 70px;
+    }
+    .nama_depan {
+        width: 90%;
+        height: 28px;
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    .nama_belakang {
+        width: 90%;
+        height: 28px;
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    td {
+        font-size: 15px;
+    }
+    td p {
+        font-size: 15px;
+        margin-left: 8%;
+    }
+    #p {
+        margin-left: 4%;
+    }
+    .jenis_kelamin {
+        height: 32px;
+        width: 96%;
+        margin-left: 0%;
+    }
+    #inp {
+        width: 95%;
+        height: 28px;
+        margin-left: 0%;
+    }
+    #inp2 {
+        width: 95%;
+        height: 28px;
+        margin-left: 0%;
+    }
+    #inp3 {
+        width: 115%;
+        height: 28px;
+        margin-left: 5.9%;
+    }
+    #inp4 {
+        height: 28px;
+        width: 130%;
+    }
+    .table1 {
+        margin-left: -22%;
+    }
+    .table2 {
+        margin-left: -49%;
+    }
+    #fieldset {
+        margin-left: 20%;
+    }
+    tr td #submit {
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 996px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    footer {
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 55px;
+        border-top-right-radius: 55px;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .a {
+        display: none;
+    }
+    .b {
+        display: none;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .goal {
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .dest7 {
+        margin-top: 5%;
+    }
+    .rekom h1 {
+        text-align: center;
+        margin-left: -10%;
+    }
+    .rekom div {
+        margin-top: 5%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .dest1 {
+        margin-left: 8%;
+    }
+    .dest3 {
+        margin-top: 5%;
+        margin-left: 8%;
+    }
 }

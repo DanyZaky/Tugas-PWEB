@@ -36,17 +36,17 @@
             </p>
             <table>
                 <p>
-                    <form name="SingUpForm" action="../../index.html" method="GET">
+                    <form name="SingUpForm" action="../../index.html" method="GET" onsubmit="validasi()">
                         <tr style="font-size: 13px; font-weight:600;">
                             <td>Nama</td>
                             <td>Username</td>
                         </tr>
                         <tr>
                             <td>
-                                <input class="tableDouble1" type="text" name="nama" required>
+                                <input class="tableDouble1" type="text" id="form" name="nama" required>
                             </td>
                             <td>
-                                <input class="tableDouble2" type="text" name="username" required>
+                                <input class="tableDouble2" type="text" id="form" name="username" required>
                             </td>
                         </tr>
                         <tr style="font-size: 13px; font-weight:600;">
@@ -54,7 +54,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input class="tableSingle" type="email" name="email" required>
+                                <input class="tableSingle" type="email" id="form" name="email" required>
                             </td>
                         </tr>
                         <tr style="font-size: 13px; font-weight:600;">
@@ -62,13 +62,13 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <input class="tableSingle" type="password" name="katasandi" required>
+                                <input class="tableSingle" type="password" id="form" name="katasandi" required>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="2">
                                 <br>
-                                <input type="checkbox" id="privacyPolicy" value="privacyPolicy" required>
+                                <input type="checkbox" id="privacyPolicy" value="privacyPolicy" style="cursor: pointer;" required>
                                 <label for="privacyPolicy" class="font-checkbox">Creating an account means you’re okay with our Terms of <br>
                                     Service, Privacy Policy, and our default Notification Settings. </label>
 
@@ -77,9 +77,7 @@
                         <tr>
                             <td colspan="2">
                                 <br>
-                                <button type="submit" style="font-size: 15px; font-weight: 500;">
-                                    Buat Akun
-                                </button>
+                                <input type="submit" class="button" onclick="validasi()" value="Buat Akun" style="font-size: 15px; font-weight: 500; cursor: pointer;">
                             </td>
                         </tr>
                         <tr>
@@ -104,7 +102,7 @@
             </p>
         </h1>
     </div>
-
+    <script src="script_SignUp.js"></script>
 </body>
 
 </html>

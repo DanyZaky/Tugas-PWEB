@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+body {
+    overflow-x: hidden;
+}
+
 p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -23,6 +27,12 @@ a {
     font-family: Pacifico, cursive;
     src: url(../Perancangan_Web/Font/Pacifico-Regular.ttf);
     src: url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+}
+
+body h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #162E44;
 }
 
 nav {
@@ -93,6 +103,23 @@ nav {
     margin-left: 19px;
 }
 
+.box1-berita a h2 {
+    font-size: 35px;
+    color: #162E44;
+}
+
+.box1-berita p {
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.box1-berita form button {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
 .box2-berita {
     height: 756px;
     width: 605px;
@@ -115,6 +142,12 @@ nav {
     width: 196px;
     background-color: white;
     border-radius: 21px;
+}
+
+.button strong {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    color: #162E44;
 }
 
 .sub-box {
@@ -274,6 +307,36 @@ nav {
     border-radius: 43px;
     margin-top: 270px;
     padding: 25px 0;
+}
+
+.text-dest h2 {
+    color: white;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.text-dest .sub1 {
+    display: inline-block;
+    position: absolute;
+    right: 19px;
+}
+
+.text-dest .sub1 p {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.text-dest .sub2 {
+    text-align: left;
+}
+
+.text-dest .sub2 p {
+    color: white;
+    text-align: left;
+    display: inline-block;
+    font-family: 'Segoe UI';
 }
 
 .star {
@@ -438,6 +501,29 @@ nav {
     margin-top: 287px;
 }
 
+.galeri div {
+    margin-left: 38px;
+}
+
+.galeri div div table {
+    margin-top: 15px;
+}
+
+.galeri div div table tr td p {
+    color: white;
+    font-size: 21px;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.galeri div p {
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    font-family: 'Segoe UI';
+}
+
 .pp1 {
     border: 2px solid rgb(255, 255, 255);
     height: 39px;
@@ -489,6 +575,14 @@ nav {
     background-color: #162E44;
 }
 
+.like p {
+    color: white;
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 3px;
+    font-family: 'Segoe UI';
+}
+
 .love {
     border: 1px solid rgba(0, 0, 0, 0);
     display: inline-block;
@@ -518,4 +612,497 @@ footer {
     color: white;
     font-family: 'Segoe UI';
     font-size: 25px;
+}
+
+.kal {
+    margin-left: 29px;
+    font-family: 'Segoe UI';
+    font-size: 21px;
+    color: #162E44;
+}
+
+.jam {
+    margin-left: 29px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.rekom {
+    margin-left: 80px;
+    color: #162E44;
+}
+
+.rekom h1 {
+    font-size: 60px;
+}
+
+.state {
+    display: inline-block;
+}
+
+.sign {
+    display: inline-block;
+}
+
+.pen h1 {
+    font-size: 60px;
+    color: #162E44;
+}
+
+.glr {
+    margin-left: 80px;
+}
+
+.glr h1 {
+    font-size: 60px;
+    color: #162E44;
+}
+
+.navs {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.menu-toggle input {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked~span:nth-child(2) {
+    transform: rotate(45deg) translate(2px, -1px);
+}
+
+.menu-toggle input:checked~span:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.menu-toggle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg) translate(3px, 0);
+}
+
+@media (max-width: 720px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .capt {
+        font-size: 50px;
+        left: -60px;
+        position: absolute;
+        z-index: 1;
+    }
+    .slogan {
+        position: absolute;
+        font-size: 22px;
+        text-align: right;
+        top: 340px;
+        right: 10px;
+        z-index: 1;
+    }
+    body h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .gambar1 {
+        height: 220px;
+        width: 105%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .box1-berita {
+        margin-left: -40px;
+        width: 100%;
+    }
+    .box1-berita a h2 {
+        font-size: 28px;
+    }
+    .box1-berita p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .box1-berita form button {
+        font-size: 12px;
+    }
+    .button {
+        height: 34px;
+        width: 106px;
+        border-radius: 10px;
+    }
+    .box2-berita {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -40px;
+        margin-top: -140px;
+    }
+    .sub-box div {
+        width: 154px;
+        height: 110px;
+    }
+    .kal {
+        font-size: 15px;
+    }
+    .jam {
+        font-size: 10px;
+    }
+    .rekom {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .rekom h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: -120px;
+    }
+    .state p {
+        font-size: 15px;
+    }
+    .jawa {
+        margin-left: 20px;
+    }
+    .sumatra {
+        margin-left: 10px;
+    }
+    .bali {
+        margin-left: 30px;
+    }
+    .sign {
+        display: none;
+    }
+    .sign p {
+        width: 30px;
+        height: 30px;
+    }
+    .left {
+        margin-left: 70px;
+    }
+    .goal {
+        margin-left: 10%;
+        justify-content: space-between;
+    }
+    .dest2 {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .dest3 {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .dest4 {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .button strong {
+        font-size: 12px;
+    }
+    .a {
+        display: none;
+    }
+    .b {
+        display: none;
+    }
+    .pen h1 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    .state1 p {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .dest5 {
+        margin-left: -30px;
+    }
+    .dest6 {
+        margin-left: -30px;
+        margin-top: 50px;
+    }
+    .dest7 {
+        margin-left: -30px;
+        margin-top: 50px;
+        margin-bottom: -40px;
+    }
+    .glr {
+        margin-left: 0;
+    }
+    .glr h1 {
+        font-size: 30px;
+    }
+    .dest8 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .dest9 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        margin-top: 35px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .dest10 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .dest11 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        margin-top: 35px;
+        margin-bottom: -40px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .like {
+        width: 65px;
+        height: 32px;
+        border-radius: 50px;
+        margin-left: 235px;
+        margin-top: 138px;
+        z-index: 3;
+    }
+    .like p {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: -5px;
+    }
+    .galeri {
+        border: 1px solid rgba(0, 0, 0, 0);
+        background-color: rgba(22, 46, 68, 0.5);
+        height: 90px;
+        width: 319px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        z-index: 2;
+        margin-top: 153px;
+    }
+    .galeri div {
+        margin-left: 15px;
+    }
+    .galeri div div table {
+        margin-top: 0px;
+    }
+    .galeri div div table tr td p {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .galeri div p {
+        font-size: 13px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+    .pp1 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp2 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp3 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp4 {
+        height: 27px;
+        width: 27px;
+    }
+    footer {
+        width: 100%;
+        height: 1675px;
+        align-items: center;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        margin-bottom: 0;
+    }
+    .box {
+        margin-left: 20%;
+    }
+    .text_footer p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 996px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .gambar1 {
+        width: 85%;
+    }
+    .sign {
+        display: none;
+    }
+    .a {
+        display: none;
+    }
+    .b {
+        display: none;
+    }
+    .state {
+        margin-top: 70px;
+    }
+    .dest3 {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .rekom h1 {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .state1 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .dest5 {
+        margin-left: -10%;
+    }
+    .dest7 {
+        margin-top: 40px;
+        margin-left: -10%;
+    }
+    .dest8 {
+        margin-left: 5%;
+    }
+    .dest9 {
+        margin-left: 5%;
+        margin-top: 35px;
+    }
+    .dest10 {
+        margin-left: 5%;
+    }
+    .dest11 {
+        margin-left: 5%;
+        margin-top: 35px;
+    }
+    .glr h1 {
+        margin-left: -10%;
+    }
+    footer {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 55px;
+        border-top-right-radius: 55px;
+    }
+    footer div {
+        margin-left: 2%;
+    }
+    #div button {
+        margin-left: -10%;
+    }
+    .box2-berita {
+        margin-left: 3%;
+    }
 }

@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+body {
+    overflow-x: hidden;
+}
+
 p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -233,6 +237,29 @@ nav {
     margin-top: 287px;
 }
 
+.galeri div {
+    margin-left: 38px;
+}
+
+.galeri div div table {
+    margin-top: 15px;
+}
+
+.galeri div div table tr td p {
+    color: white;
+    font-size: 21px;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.galeri div p {
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    font-family: 'Segoe UI';
+}
+
 .pp1 {
     border: 2px solid rgb(255, 255, 255);
     height: 39px;
@@ -379,4 +406,421 @@ footer {
     margin-top: 50px;
     background-image: url('img/icon-add.png');
     background-size: cover;
+}
+
+.navs {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.menu-toggle input {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked~span:nth-child(2) {
+    transform: rotate(45deg) translate(2px, -1px);
+}
+
+.menu-toggle input:checked~span:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.menu-toggle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg) translate(3px, 0);
+}
+
+.exp p {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+form button {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.like p {
+    color: white;
+    display: inline-block;
+    font-size: 21px;
+    margin-top: 3px;
+    font-family: 'Segoe UI';
+}
+
+.choice .p1 {
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    color: #162E44;
+    margin-right: 66px;
+}
+
+.choice .p2 {
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    color: #162E44;
+}
+
+@media (max-width: 720px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .capt {
+        font-size: 50px;
+        left: -60px;
+        position: absolute;
+    }
+    .slogan {
+        position: absolute;
+        font-size: 22px;
+        text-align: right;
+        top: 280px;
+        right: 10px;
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+        height: 1680px;
+        align-items: center;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        margin-bottom: 0;
+    }
+    .box {
+        margin-left: 20%;
+    }
+    .text_footer p {
+        text-align: center;
+    }
+    .box-bottom {
+        margin-left: 5%;
+        margin-top: 90%;
+        height: 200px;
+        width: 200px;
+    }
+    .exp {
+        width: 170px;
+        padding: 15px;
+    }
+    .exp p {
+        font-size: 20px;
+    }
+    .ling {
+        width: 70px;
+        height: 70px;
+        margin-left: 35%;
+        margin-top: 13%;
+    }
+    .button {
+        height: 34px;
+        width: 106px;
+        border-radius: 10px;
+    }
+    form button {
+        font-size: 12px;
+    }
+    .like {
+        width: 65px;
+        height: 32px;
+        border-radius: 50px;
+        margin-left: 235px;
+        margin-top: 138px;
+        z-index: 3;
+    }
+    .like p {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: -5px;
+    }
+    .galeri {
+        border: 1px solid rgba(0, 0, 0, 0);
+        background-color: rgba(22, 46, 68, 0.5);
+        height: 90px;
+        width: 319px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        z-index: 2;
+        margin-top: 153px;
+    }
+    .galeri div {
+        margin-left: 15px;
+    }
+    .galeri div div table {
+        margin-top: 0px;
+    }
+    .galeri div div table tr td p {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .galeri div p {
+        font-size: 13px;
+        margin-left: 6px;
+        margin-top: 3px;
+    }
+    .gambar1 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar2 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        margin-top: 35px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar3 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar4 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        margin-top: 35px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar5 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar6 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        margin-top: 35px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar7 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .gambar8 {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -10px;
+        margin-top: 35px;
+        height: 244px;
+        width: 319px;
+        z-index: 1;
+    }
+    .pp1 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp2 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp3 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp4 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp5 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp6 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp7 {
+        height: 27px;
+        width: 27px;
+    }
+    .pp8 {
+        height: 27px;
+        width: 27px;
+    }
+    .center {
+        margin-left: 8%;
+    }
+    .choice {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 996px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    footer {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 55px;
+        border-top-right-radius: 55px;
+    }
+    .box-bottom {
+        margin-left: 65%;
+        margin-top: 15%;
+        height: 200px;
+        width: 200px;
+    }
+    .exp {
+        width: 170px;
+        padding: 15px;
+    }
+    .exp p {
+        font-size: 20px;
+    }
+    .ling {
+        width: 70px;
+        height: 70px;
+        margin-left: 33%;
+        margin-top: 13%;
+    }
+    .center {
+        margin-left: 13%;
+    }
+    .gambar2 {
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .gambar4 {
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .gambar6 {
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .gambar8 {
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .choice {
+        margin-top: 5%;
+    }
 }

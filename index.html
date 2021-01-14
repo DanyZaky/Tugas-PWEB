@@ -36,13 +36,13 @@
             </p>
             <table>
                 <p>
-                    <form name="SingUpForm" action="Source Code/Laman_Beranda/slide3.html" method="GET">
+                    <form name="SingUpForm" onsubmit="validasi()" action="Source Code/Laman_Beranda/slide3.html" method="GET">
                         <tr style="font-size: 13px; font-weight:600;">
                             <td>Alamat Email</td>
                         </tr>
                         <tr>
                             <td>
-                                <input class="tableSingle" type="email" name="email" required>
+                                <input class="tableSingle" id="email" type="email" name="email" required>
                             </td>
                         </tr>
                         <tr style="font-size: 13px; font-weight:600;">
@@ -50,15 +50,13 @@
                         </tr>
                         <tr>
                             <td>
-                                <input class="tableSingle" type="password" name="katasandi" required>
+                                <input class="tableSingle" id="kata_sandi" type="password" name="katasandi" required>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <br>
-                                <button type="submit" style="font-size: 15px; font-weight: 500;">
-                                    Masuk
-                                </button>
+                                <input onclick="validasi()" type="submit" id="button" value="Masuk" style="font-size: 15px; font-weight: 500; cursor: pointer;">
                             </td>
                         </tr>
                     </form>
@@ -78,7 +76,7 @@
             </p>
         </h1>
     </div>
-
+    <script src="script_SignIn.js"></script>
 </body>
 
 </html>

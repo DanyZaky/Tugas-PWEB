@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+body {
+    overflow-x: hidden;
+}
+
 p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -394,20 +398,394 @@ footer {
     font-size: 25px;
 }
 
-.inputBar
-{
+.inputBar {
     padding: 5px;
     width: 260px;
     border: none;
     background: none;
 }
 
-.searchBar
-{
+.searchBar {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px 12px;
     width: 300px;
     border-radius: 50px;
     margin-left: 1150px;
+}
 
+.box1-berita a h2 {
+    font-size: 35px;
+    color: #162E44;
+}
+
+.box1-berita p {
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.kal {
+    margin-left: 29px;
+    font-family: 'Segoe UI';
+    font-size: 21px;
+    color: #162E44;
+}
+
+.jam {
+    margin-left: 29px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.button strong {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+.navs {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.menu-toggle input {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked~span:nth-child(2) {
+    transform: rotate(45deg) translate(2px, -1px);
+}
+
+.menu-toggle input:checked~span:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.menu-toggle input:checked~span:nth-child(4) {
+    transform: rotate(-45deg) translate(3px, 0);
+}
+
+.main {
+    margin-left: 59px;
+}
+
+.main h1 {
+    font-size: 57px;
+    color: #162E44;
+}
+
+.main div {
+    display: inline-block;
+}
+
+center button strong {
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    color: #162E44;
+}
+
+@media (max-width: 720px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .bottom {
+        height: 650px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .capt {
+        font-size: 50px;
+        position: absolute;
+        left: -60px;
+        top: 50px;
+    }
+    .slogan {
+        font-size: 22px;
+        position: absolute;
+        right: 10px;
+        top: 340px;
+        text-align: right;
+    }
+    .searchBar {
+        margin-left: 0px;
+        width: 225px;
+        position: absolute;
+        right: 10px;
+        top: 410px;
+    }
+    .gambar1 {
+        height: 220px;
+        width: 105%;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    .box1-berita {
+        margin-left: -40px;
+        width: 100%;
+    }
+    .box1-berita a h2 {
+        font-size: 28px;
+    }
+    .box1-berita p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .box1-berita form button {
+        font-size: 12px;
+    }
+    .button {
+        height: 34px;
+        width: 106px;
+        border-radius: 10px;
+    }
+    .box1-berita form button strong {
+        font-size: 12px;
+    }
+    .box2-berita {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -40px;
+        margin-top: -140px;
+    }
+    .sub-box div {
+        width: 154px;
+        height: 110px;
+    }
+    .kal {
+        font-size: 15px;
+    }
+    .jam {
+        font-size: 10px;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .main h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -20%;
+        margin-bottom: 30px;
+    }
+    .jawa {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .sumatra {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .bali {
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    .goal {
+        margin-left: 5%;
+    }
+    .main div {
+        margin-left: 7%;
+    }
+    .dest1 {
+        margin-left: 5%;
+    }
+    .dest2 {
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .dest3 {
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .dest4 {
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .button strong {
+        font-size: 12px;
+    }
+    .prog {
+        margin-top: -100px;
+    }
+    .main1 {
+        margin-top: 50px;
+    }
+    footer {
+        width: 100%;
+        height: 1675px;
+        align-items: center;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        margin-bottom: 0;
+    }
+    .box {
+        margin-left: 20%;
+    }
+    .text_footer p {
+        text-align: center;
+    }
+    .gambar6 {
+        width: 95%;
+    }
+    .gambar7 {
+        width: 95%;
+    }
+    .gambar8 {
+        width: 95%;
+    }
+    .gambar9 {
+        width: 95%;
+    }
+    .gambar10 {
+        width: 95%;
+    }
+    .gambar11 {
+        width: 95%;
+    }
+    .gambar12 {
+        width: 95%;
+    }
+    .gambar13 {
+        width: 95%;
+    }
+    .gambar14 {
+        width: 95%;
+    }
+    .gambar15 {
+        width: 95%;
+    }
+    .gambar16 {
+        width: 95%;
+    }
+    .gambar17 {
+        width: 95%;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 996px) {
+    .navbar strong {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: #162E44;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 80%;
+        align-items: center;
+        z-index: 3;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .navbar strong.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .title {
+        display: inline-block;
+    }
+    .navs {
+        display: inline-block;
+        position: absolute;
+    }
+    .searchBar {
+        margin-left: 0px;
+        width: 225px;
+        position: absolute;
+        right: 10px;
+        top: 410px;
+    }
+    .gambar1 {
+        margin-left: -5%;
+        width: 93%;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    .goal {
+        margin-left: 0px;
+    }
+    .dest1 {
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .dest3 {
+        margin-top: 40px;
+    }
+    footer {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 55px;
+        border-top-right-radius: 55px;
+    }
 }

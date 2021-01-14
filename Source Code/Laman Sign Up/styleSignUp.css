@@ -79,7 +79,7 @@ table [type=password] {
     height: 30px;
 }
 
-button {
+.button {
     color: white;
     border-style: hidden;
     background-color: #162E44;
