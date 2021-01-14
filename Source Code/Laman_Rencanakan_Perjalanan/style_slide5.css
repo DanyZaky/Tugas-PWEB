@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
-
-/*body {
+body {
     overflow-x: hidden;
-}*/
+}
 
 p {
     color: black;
@@ -543,6 +542,9 @@ form button {
 }
 
 @media (max-width: 720px) {
+    body {
+        width: 100%;
+    }
     .program {
         margin-top: 25px;
     }
@@ -559,12 +561,12 @@ form button {
         width: 80%;
         align-items: center;
         z-index: 3;
-        transform: translateX(100%);
+        transform: translateY(-200%);
         transition: all 0.5s;
         opacity: 0;
     }
     .navbar strong.slide {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
     .menu {
@@ -793,6 +795,9 @@ form button {
 }
 
 @media (min-width: 720px) and (max-width: 996px) {
+    body {
+        width: 100%;
+    }
     .navbar strong {
         display: flex;
         flex-direction: column;
@@ -806,12 +811,12 @@ form button {
         width: 80%;
         align-items: center;
         z-index: 3;
-        transform: translateX(100%);
+        transform: translateY(-200%);
         transition: all 0.5s;
         opacity: 0;
     }
     .navbar strong.slide {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
     .menu {

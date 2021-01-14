@@ -515,6 +515,9 @@ center button strong {
 }
 
 @media (max-width: 720px) {
+    body {
+        width: 100%;
+    }
     .navbar strong {
         display: flex;
         flex-direction: column;
@@ -528,12 +531,12 @@ center button strong {
         width: 80%;
         align-items: center;
         z-index: 3;
-        transform: translateX(100%);
+        transform: translateY(-200%);
         transition: all 0.5s;
         opacity: 0;
     }
     .navbar strong.slide {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
     .menu {
@@ -724,6 +727,9 @@ center button strong {
 }
 
 @media (min-width: 720px) and (max-width: 996px) {
+    body {
+        width: 100%;
+    }
     .navbar strong {
         display: flex;
         flex-direction: column;
@@ -737,12 +743,12 @@ center button strong {
         width: 80%;
         align-items: center;
         z-index: 3;
-        transform: translateX(100%);
+        transform: translateY(-200%);
         transition: all 0.5s;
         opacity: 0;
     }
     .navbar strong.slide {
-        transform: translateX(0);
+        transform: translateY(0);
         opacity: 1;
     }
     .menu {
